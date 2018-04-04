@@ -1,0 +1,669 @@
+ .div-table{
+  /*display:table;         */
+  width:1280px;
+  /*width:auto;*/
+  margin-left: 20px;
+  margin-right: 20px;
+  /*height:475px;*/
+  height:600px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background-color:#eee;
+  margin-bottom: 50px;    
+  /*border:1px solid  #666666;*/     
+  /*border-spacing:5px;*//*cellspacing:poor IE support for  this*/
+}
+.div-table-row{
+  /*display:table-row;*/
+  /*width:10000px;*/
+  /*width:3410px;*/ 
+  /*width:1760px;*/
+  width:1350px;
+  /*width:auto;*/
+  clear:both;
+}
+.div-table-row1{
+  width:1729px;
+  clear:both;
+}
+.div-table-col-time{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width:129px;
+  /*color:#fff;*/
+  color:#000;
+  height:60px;
+  font-size: 11px;     
+  /*background-color:#428BCA; */
+  background-color:#C0C0C0; 
+  border:1px solid #000;
+  padding-top: 3px;
+  /*display: inline-block;*/
+}
+.div-table-col-time-group{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width:119px;
+  /*color:#fff;*/
+  color:#000;
+  height:60px;
+  font-size: 11px;     
+  /*background-color:#428BCA; */
+  background-color:#C0C0C0; 
+  border:1px solid #000;
+  padding-top: 3px;
+  /*display: inline-block;*/
+}
+.div-table-col-time-group1{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width:146px;
+  /*color:#fff;*/
+  color:#000;
+  height:60px;
+  font-size: 11px;     
+  /*background-color:#428BCA; */
+  background-color:#C0C0C0; 
+  border:1px solid #000;
+  padding-top: 3px;
+  /*display: inline-block;*/
+}
+
+.div-table-col-blank{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width:129px;
+  height:60px;
+  font-size: 11px;     
+  background-color:#00FFFF; 
+  border:1px solid #000;
+  padding-top: 10px;
+  /*display: inline-block;*/
+}
+
+.div-table-col-blank-group{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width: 119px;
+  height: 40px;
+  font-size: 11px;     
+  background-color:#00FFFF; 
+  border:1px solid #000;
+  padding-top: 5px;
+  /*display: inline-block;*/
+}
+.div-table-col-blank-group1{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width: 146px;
+  height: 40px;
+  font-size: 11px;     
+  background-color:#00FFFF; 
+  border:1px solid #000;
+  padding-top: 5px;
+  /*display: inline-block;*/
+}
+.div-table-col-blank-group2{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width: 146px;
+  height: 70px;
+  font-size: 11px;     
+  background-color:#00FFFF; 
+  border:1px solid #000;
+  padding-top: 5px;
+  /*display: inline-block;*/
+}
+.div-table-col-blank-student{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width: 119px;
+  height: 40px;
+  font-size: 11px;     
+  /*background-color:#F04E23; */
+  border:1px solid #000;
+  padding-top: 5px;
+  color: #000;
+  /*display: inline-block;*/
+}
+.div-table-col-blank-student1{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width: 146px;
+  height: 40px;
+  font-size: 11px;     
+  /*background-color:#F04E23; */
+  border:1px solid #000;
+  padding-top: 5px;
+  color: #000;
+  /*display: inline-block;*/
+}
+
+.div-table-col-blank-group-room{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width:119px;
+  /*height:500px;*/
+  /*font-size: 11px;     */
+  /*background-color:#00FFFF; 
+  border:1px solid #000;*/
+  /*padding-top: 10px;*/
+  /*display: inline-block;*/
+}
+.div-table-col-blank-group-room1{
+  /*fix for  buggy browsers*/
+  float:left;
+  display:table-column;         
+  width:146px;
+}
+
+.div-table-col{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:129px;
+  height:60px;
+  font-size: 11px;     
+  background-color:#FD7700; 
+  border:1px solid #000;  
+  color:#fff;  
+  padding-top: 7px;  
+}
+
+.div-table-col-sec{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width: 70px;
+  height: 60px;
+  /*background-color: #646464; */
+  background-color: #C0C0C0; 
+  /*border:1px solid #DDDDDD;  */
+  border:1px solid #000;  
+  padding-top: 7px;
+  color:#000;  
+}
+.div-table-col-sec-group-span{
+  /*background: #06c;*/
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.div-table-col-sec-group{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width: 70px;
+  /*height: 600px;*/
+  /*height: 800px;*/
+  /*background-color: #646464; */
+  background-color: #C0C0C0; 
+  /*border:1px solid #DDDDDD;  */
+  border:1px solid #000;  
+  /*padding-top: 250px;*/
+  color:#000;  
+}
+
+.div-table-col-sec-1{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width: 200px;
+  height: 60px;
+  /*background-color: #646464; */
+  background-color:#C0C0C0; 
+  border:1px solid #000;  
+  padding-top: 7px;
+  color:#000;  
+}
+
+.div-table-col-sec-student{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width: 200px;
+  height: 60px;
+  /*background-color: #646464; */
+  background-color:#00FFFF; 
+  border:1px solid #000;  
+  padding-top: 7px;
+  color:#000;  
+}
+
+.div-table-colspan2{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:110px;
+  height:35px;   
+  background-color:#6AA4C1;  
+  border:1px solid #DDDDDD;
+  color:#fff;  
+  padding-top: 7px;  
+
+}
+
+.div-table-colspan3{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:165px;
+  height:35px;    
+  background-color:#6AA4C1;  
+  border:1px solid #DDDDDD;
+  color:#fff; 
+  padding-top: 7px;   
+}
+
+.div-table-colspan4{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:220px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan5{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:275px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan6{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:330px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan7{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:385px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan8{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:440px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan9{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:495px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan10{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:550px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan11{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:605px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan12{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:660px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan13{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:715px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan14{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:770px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan15{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:825px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan16{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:880px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan17{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:935px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan18{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:990px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan19{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1045px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan20{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1100px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan21{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1155px;
+  height:35px;   
+  background-color:#6AA4C1;  
+  border:1px solid #DDDDDD;
+  color:#fff;  
+  padding-top: 7px;  
+
+}
+
+.div-table-colspan22{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1210px;
+  height:35px;    
+  background-color:#6AA4C1;  
+  border:1px solid #DDDDDD;
+  color:#fff; 
+  padding-top: 7px;   
+}
+
+.div-table-colspan23{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1265px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan24{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1320px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan25{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1375px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan26{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1430px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan27{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1485px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan28{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1540px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan29{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1595px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan30{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1650px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan31{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1705px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan32{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1760px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan33{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1815px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan34{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1870px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan35{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1925px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan36{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:1980px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan37{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:2035px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan38{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:2090px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan39{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:2145px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}
+
+.div-table-colspan40{
+  float:left;/*fix for  buggy browsers*/
+  display:table-column;         
+  width:2200px;
+  height:35px;    
+  background-color:#6AA4C1; 
+  border:1px solid #DDDDDD;
+  color:#fff;
+  padding-top: 7px;     
+}

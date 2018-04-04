@@ -1,0 +1,14 @@
+/.idea
+/vendor
+/www/images
+/node_modules
+/config/database.php
+/public/assets/site/images/person_images
+storage/framework/views
+.env
+.svn/
+.DS_Store
+Thumbs.db
+composer.lock
+composer.phar
+/public/.htaccess
